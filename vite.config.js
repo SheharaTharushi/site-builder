@@ -9,7 +9,7 @@ const __dirname = dirname(__filename);
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/site-builder/", // Base path for subdirectory deployment
+  base: "./", // Base path for subdirectory deployment
   resolve: {
     alias: {
       "@": resolve(__dirname, "./src"),
